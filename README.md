@@ -23,7 +23,6 @@ Supports real-time regex evaluation, highlighting, and error handling — making
 
 | Feature | Screenshot |
 |--------|------------|
-| Main Interface / Input & Validator | ![Screenshot 1](https://mohamed-eltelb.site/images/screenshots/9/screenshot1.png) |
-| Highlighting Matches | ![Screenshot 2](https://mohamed-eltelb.site/images/screenshots/9/screenshot2.png) |
-| Error / Feedback Display | ![Screenshot 3](https://mohamed-eltelb.site/images/screenshots/9/screenshot3.png) |
-https://mohamed-eltelb.site/images/screenshots/9/screenshot1.png
+| Main Interface / Input & Validator | ![Screenshot 1](https://github.com/user-attachments/assets/4e8d3747-b1a3-4829-8eb2-0be1acd5300b) |
+| Highlighting Matches | ![Screenshot 2](https://github.com/user-attachments/assets/75f5c41e-1b77-41b3-bff2-58228b3e75d8) |
+| Error / Feedback Display | ![Screenshot 3](https://github.com/user-attachments/assets/9c590608-cf5e-4e9b-a62c-37f7378edff2) |
