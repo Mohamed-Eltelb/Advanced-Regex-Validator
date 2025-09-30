@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/shortcut-icon">
+    <title>Advanced Regex Validator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Advanced Regex Validator</h1>
+            <div class="subtitle">Test your regular expressions in real-time</div>
+        </div>
+
+        <div class="form-container">
+            <div class="input-group">
+                <label for="text-input">Test String</label>
+                <textarea id="text-input" placeholder="Enter the text you want to test against the pattern"></textarea>
+            </div>
+
+            <div class="input-group">
+                <label for="pattern-input">Regular Expression Pattern
+                    <span class="tooltip">
+                        <i class="fas fa-info-circle"></i>
+                        <span class="tooltip-text">Use standard regex syntax. Example: ^[A-Za-z0-9]+$ for
+                            alphanumeric</span>
+                    </span>
+                </label>
+                <input type="text" id="pattern-input" placeholder="Enter your regular expression pattern">
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-primary" onclick="checkPattern()">
+                    <i class="fas fa-check"></i> Validate Pattern
+                </button>
+                <button class="btn btn-secondary" onclick="resetForm()">
+                    <i class="fas fa-redo"></i> Reset
+                </button>
+            </div>
+
+            <div id="result" class="result-container">
+                <div class="result-title">
+                    <i class="fas fa-poll"></i> Validation Result
+                </div>
+                <div class="result-content" id="result-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
